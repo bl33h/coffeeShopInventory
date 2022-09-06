@@ -70,3 +70,23 @@ const float smoresLatteASales = 1540;
 // *Food*
 const float chocolateCakeASales = 250;
 const float toastedCoffeeASales = 15;
+
+// Variable bills per month
+// JULY
+const float variableBillsJ = 45640.00;
+// AUGUST
+const float variableBillsA = 40590.00;
+
+// Threads quantity available for the process
+const int threadsQuantity = 16;
+
+// Arrays in order to construct a matrix that will contain all the information of the summary
+// ------- Products available -------
+string products[8] = {"American Coffee", "Cappuccino", "Latte", "Toffe Coffee", "White Mocha", "S'mores Latte", "Chocolate cake", "Toasted Coffee"};
+// ------- Prices of each product -------
+float prices[8] = {americanCoffee, cappuccino, latte, toffeCoffee, whiteMocha, smoresLatte, chocolateCake, toastedCoffee};
+// ------- Cost of each product -------
+float costs[8] = {americanCoffeeUnit, cappuccinoUnit, latteUnit, toffeCoffeeUnit, whiteMochaUnit, smoresLatteUnit, chocolateCakeUnit, toastedCoffeeUnit};
+// ------- Sales -------
+float costs[16] = {americanCoffeeJSales, cappuccinoJSales, latteJSales, toffeCoffeeJSales, whiteMochaJSales, smoresLatteJSales, chocolateCakeJSales, toastedCoffeeJSales,
+americanCoffeeASales, cappuccinoASales, latteJSales, toffeCoffeeASales, whiteMochaASales, smoresLatteASales, chocolateCakeASales, toastedCoffeeASales};
