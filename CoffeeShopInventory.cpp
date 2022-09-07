@@ -89,4 +89,22 @@ float prices[8] = {americanCoffee, cappuccino, latte, toffeCoffee, whiteMocha, s
 float costs[8] = {americanCoffeeUnit, cappuccinoUnit, latteUnit, toffeCoffeeUnit, whiteMochaUnit, smoresLatteUnit, chocolateCakeUnit, toastedCoffeeUnit};
 // ------- Sales -------
 float costs[16] = {americanCoffeeJSales, cappuccinoJSales, latteJSales, toffeCoffeeJSales, whiteMochaJSales, smoresLatteJSales, chocolateCakeJSales, toastedCoffeeJSales,
-americanCoffeeASales, cappuccinoASales, latteJSales, toffeCoffeeASales, whiteMochaASales, smoresLatteASales, chocolateCakeASales, toastedCoffeeASales};
+americanCoffeeASales, cappuccinoASales, latteASales, toffeCoffeeASales, whiteMochaASales, smoresLatteASales, chocolateCakeASales, toastedCoffeeASales};
+
+// Summary results
+float salesQ[16] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+float salesU[16] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+// ------- Sales per month -------
+// JULY (established as a float in order to keep the same type of data when the operations os the summary take place)
+float jSales = 0.0; 
+// AUGUST (established as a float in order to keep the same type of data when the operations os the summary take place)
+float aSales = 0.0;
+
+// ------- Utility per month -------
+// JULY (established as a float in order to keep the same type of data when the operations os the summary take place)
+float julyU = 0.0;
+// AUGUST (established as a float in order to keep the same type of data when the operations os the summary take place)
+float augustU = 0.0;
+
+// ------- Calculations -------
+// ------- Main method -------
